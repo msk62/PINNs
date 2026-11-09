@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project investigates the use of **Physics-Informed Neural Networks (PINNs)** to solve ordinary and partial differential equations, using PyTorch to implement and train neural networks constrained by governing physical equations.
+PINNs_Project.ipynb investigates the use of **Physics-Informed Neural Networks (PINNs)** to solve ordinary and partial differential equations, using PyTorch to implement and train neural networks constrained by governing physical equations.
 
 Rather than learning solutions exclusively from labelled data, PINNs incorporate the underlying physics directly into their training objectives. Automatic differentiation is used to calculate the derivatives required by the governing equations, while residual-based loss functions encourage the network to satisfy the physical constraints.
 
